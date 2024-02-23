@@ -26,8 +26,6 @@ df, p_df = parse_config_file_analysis(config_tsv,
                        an_meta_tsv,
                        auto_dedupe=auto_dedupe)
 
-import pdb; pdb.set_trace()
-
 end_modes = ['tss', 'tes']
 strands = ['fwd', 'rev']
 
