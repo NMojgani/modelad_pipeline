@@ -9,7 +9,7 @@ sex = "M"
 age = "8_weeks" 
 tissue = "HC" 
 cerberus_run = "7"
-source = “_”.join([study, genotype, sex, age, tissue])
+source = "_".join([study, genotype, sex, age, tissue])
 sources = ["cerberus", source]
 out_ics = "analysis/240221_nm/cerberus/agg/ad004_hTREM2KI-WT_M_8_weeks_HC_7_ic.tsv"
 cerberus.agg_ics([prev_ics, cur_ics],
